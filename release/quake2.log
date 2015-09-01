@@ -1,0 +1,49 @@
+﻿  cl_main.c
+client\cl_main.c(164): warning C4459: объявление "name" скрывает глобальное объявление
+  client\cl_main.c(81): note:  см. объявление "name"
+client\cl_main.c(211): warning C4057: функция: "byte *" отличается от "char [1400]" по косвенному обращению к слегка разным базовым типам
+client\cl_main.c(197): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+client\cl_main.c(315): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(316): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(320): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(321): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(324): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\stdlib.h(1351): note:  см. объявление "putenv"
+client\cl_main.c(328): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\stdlib.h(1185): note:  см. объявление "getenv"
+client\cl_main.c(459): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\string.h(347): note:  см. объявление "strncpy"
+client\cl_main.c(522): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\string.h(347): note:  см. объявление "strncpy"
+client\cl_main.c(548): warning C4310: приведение обуславливает усечение постоянного значения
+client\cl_main.c(549): warning C4310: приведение обуславливает усечение постоянного значения
+client\cl_main.c(550): warning C4310: приведение обуславливает усечение постоянного значения
+client\cl_main.c(551): warning C4310: приведение обуславливает усечение постоянного значения
+client\cl_main.c(556): warning C4013: lstrcat: нет определения; предполагается "extern" с возвратом типа "int"
+client\cl_main.c(563): warning C4013: lstrcatA: нет определения; предполагается "extern" с возвратом типа "int"
+client\cl_main.c(571): warning C4013: lstrlen: нет определения; предполагается "extern" с возвратом типа "int"
+client\cl_main.c(648): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(649): warning C4057: функция: "const char *" отличается от "byte [32]" по косвенному обращению к слегка разным базовым типам
+client\cl_main.c(650): warning C4057: функция: "const char *" отличается от "byte [32]" по косвенному обращению к слегка разным базовым типам
+client\cl_main.c(651): warning C4057: функция: "const char *" отличается от "byte [32]" по косвенному обращению к слегка разным базовым типам
+client\cl_main.c(704): warning C4310: приведение обуславливает усечение постоянного значения
+client\cl_main.c(805): warning C4459: объявление "name" скрывает глобальное объявление
+  client\cl_main.c(81): note:  см. объявление "name"
+client\cl_main.c(1065): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\string.h(347): note:  см. объявление "strncpy"
+client\cl_main.c(1236): warning C4459: объявление "skin" скрывает глобальное объявление
+  client\cl_main.c(82): note:  см. объявление "skin"
+client\cl_main.c(1250): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(1256): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(1317): warning C4389: !=: несоответствие типов со знаком и без знака
+client\cl_main.c(1355): warning C4456: объявление "fn" скрывает предыдущее локальное объявление
+  client\cl_main.c(1122): note:  см. объявление "fn"
+client\cl_main.c(1357): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\stdio.h(1769): note:  см. объявление "sprintf"
+client\cl_main.c(1567): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+cl_main.obj : error LNK2019: ссылка на неразрешенный внешний символ _lstrcat в функции _CL_Rcon_f
+cl_main.obj : error LNK2019: ссылка на неразрешенный внешний символ _lstrcatA в функции _CL_Rcon_f
+cl_main.obj : error LNK2019: ссылка на неразрешенный внешний символ _lstrlen в функции _CL_Rcon_f
+.\release\quake2.exe : fatal error LNK1120: неразрешенных внешних элементов: 3

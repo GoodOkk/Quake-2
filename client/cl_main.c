@@ -21,6 +21,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 #include "client.h"
 
+#pragma comment(lib, "Kernel32.lib")
+
 cvar_t	*freelook;
 
 cvar_t	*adr0;
@@ -551,22 +553,22 @@ void CL_Rcon_f (void)
 
 	NET_Config (true);		// allow remote
 
-	strcat (message, "rcon ");
+	lstrcatA (message, "rcon ");
 
-	strcat (message, rcon_client_password->string);
-	strcat (message, " ");
+	lstrcatA (message, rcon_client_password->string);
+	lstrcatA (message, " ");
 
 	for (i=1 ; i<Cmd_Argc() ; i++)
 	{
-		strcat (message, Cmd_Argv(i));
-		strcat (message, " ");
+		lstrcatA (message, Cmd_Argv(i));
+		lstrcatA (message, " ");
 	}
 
 	if (cls.state >= ca_connected)
 		to = cls.netchan.remote_address;
 	else
 	{
-		if (!strlen(rcon_address->string))
+		if (!lstrlen(rcon_address->string))
 		{
 			Com_Printf ("You must either be connected,\n"
 						"or set the 'rcon_address' cvar\n"
@@ -579,7 +581,7 @@ void CL_Rcon_f (void)
 			to.port = BigShort (PORT_SERVER);
 	}
 	
-	NET_SendPacket (NS_CLIENT, strlen(message)+1, message, to);
+	NET_SendPacket (NS_CLIENT, lstrlen(message)+1, message, to);
 }
 
 
